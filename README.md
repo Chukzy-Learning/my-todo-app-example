@@ -9,7 +9,7 @@
 ## Install
 
 ```sh
-git clone https://github.com/thobalose/todo-list-app.git ; cd todo-list-app/
+git clone https://github.com/chukspeter-dev/my-todo-app-example.git ; cd todo-list-app/
 ```
 
 ```sh
@@ -37,11 +37,11 @@ npm test
 To build a docker image for the todo-list-app and run it inside a container execute
 
 ```sh
-docker build -t thoba/todo-list-app .
+docker build -t peter3636/to-do-app .
 ```
 
 The above with create an image with the `latest` tag. To run the container execute
 
 ```sh
-docker run -it -p 8080:8080 --name todo_list_app thoba/todo-list-app
+docker run -it -p 8080:8080 --name todo_list_app peter3636/to-do-app
 ```
