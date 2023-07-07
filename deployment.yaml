@@ -15,7 +15,7 @@ spec:
         app: todo-app
     spec:
     containers:
-      - image: peter3636/todo-app
+      - image: peter3636/flaskapp:v1
         name: todo-app
         ports:
         - containerPort: 8090
